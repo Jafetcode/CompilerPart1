@@ -1,3 +1,48 @@
+{
 main
-  integer x= 5;
-  output("hello world");
+    output:"Please enter a  number";
+    integer num1 = input;
+    integer       fou2nd =0;
+    integer even_Count=              0;
+    integer oddCoun_t = 0;
+
+    integertestIfIntegerOrId =5
+
+    string s ="";
+
+
+
+    if(num1 == 1000 or num1 == 2000){
+        s = "You have found the secret number             ";
+        output(s);
+    }
+    else if(num1 > 4000 ){
+        s = "            The number you entered is very large         ";
+        output(s);
+    }
+    else if(num1 < 100) {
+        output("                        Number is a reasonable size: ", num1 );
+    }
+    if(num1/2 == 4 != false ){
+        output("Number is 8");
+    }
+    else if(not(num1 /2 == 4) == true ){
+        output("Number is not 8");
+    }
+    num1 = num1 -2;
+    while (num1 != -1 and found != 1) {
+        if (num1 == 0) {
+            found =1;
+            output("NUMBER IS EVEN")
+        }
+        num1 = num1 -2;
+    }
+    if(num1 == -1){
+        oddCount = oddCount + 1;
+        output:"Number is odd";
+    }
+    output("Odd Number count:");
+    output(odd_Count);
+    output("Even Number count:");
+    output(evenCoun_t);
+}
